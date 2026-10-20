@@ -1,0 +1,105 @@
+@font-face {
+  font-family: MyCustomFont;
+  src: url("../Gilmer-Regular.");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header{
+	font-family: MyCustomFont,"Trebuchet MT",Verdana,serif;
+	background-color: #8c7e72a3;
+	height:100px;
+	color:#493626;
+
+}
+
+#skip{
+	position:relative;
+	left:-1000px;
+	transition-property: left;
+
+}
+#skip:focus{
+	left:0px;
+}
+header img{
+	float:left;
+}
+
+header a{
+	text-decoration: none;
+	font-size: larger;
+    font-weight: bolder;
+    /*border:solid 0 2px 2px 0 #c6af95;*/
+}
+header li:hover{
+	border: solid;
+	border-width: 0 3px 3px 0;
+	border-radius: 10px;
+	border-color: #c6af95;
+}
+header li:active{
+	font-size: larger;
+	transition-duration: 0.5s;
+}
+
+header li{
+	list-style-type: none;
+	display: inline-grid;
+    width: 20%;
+    /*border: solid;*/
+    border-width: 1px 2px 2px 1px;
+    text-align: center;
+    padding: 0 5px;
+    margin:0 10px;
+    justify-content: center;
+
+}
+
+body{
+	font-family: MyCustomFont,"Trebuchet MT",Verdana,sans-serif;
+	background-color: #e2dcd691;
+	color: #493626;
+	font-size: large;
+
+}
+
+.box{
+	text-align: center;
+    display: inline-grid;
+    width: 25%;
+    border: solid #625143;
+    padding:10 px;
+    margin:0 10px;
+    height: 250px;
+}
+
+.box:hover{
+	border-radius: 15px;
+	transform:scale(120%) ;
+}
+
+.box img{
+	display: block;
+	margin:30px auto;
+
+}
+
+.contact-icon{
+	display: inline;
+}
+
+#message {
+	height: 150px;
+	width:300px;
+	margin-top: 0;
+}
+
+#subject-email{
+	width:300px;
+}
+
+footer{
+	color: #493626;
+	background-color: #c6af95;
+}
